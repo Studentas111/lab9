@@ -1,0 +1,293 @@
+.vertical-stack {
+    display: flex;
+    flex-direction: column; 
+    background: transparent;
+   
+  }
+  .vertical-stack * {
+    margin-bottom: 10px; 
+  }
+      
+      
+      .aligncenter{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+        padding-top: 10px;
+  
+      }
+      .alignfromleft{
+  padding-left: 420px;
+  
+      }
+      .alignfromleft2{
+        padding-left: 420px;
+        margin-top: -200;
+  
+      }
+  
+      .horizontal-stack {
+    display: flex;
+    flex-direction: row; 
+    background: transparent;
+   
+  }
+  .horizontal-stack * {
+    margin-left: 200px; 
+  }
+  .numbers{
+    display: flex;
+  background: transparent;
+  flex-direction: row;
+  margin-left: 280px;
+  margin-top:0px;
+  
+  
+  }
+  .numbers  * {
+    padding-left: 10px; 
+  }
+  
+  
+  .percentage-scale {
+        width: 20%;
+        height: 30px;
+        background-color: #ad9595;
+        position: relative;
+      }
+  
+      .percentage-bar {
+        height: 100%;
+        background-color: #4CAF50;
+        position: absolute;
+      }
+  
+      .percentage-label {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        text-align: center;
+        color: #000;
+      }
+      .up{
+  
+        margin-bottom: -250px;
+      }
+   .slider{
+
+    background: transparent;
+    
+   }
+   .name {
+    background: transparent;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+    left: 0px; 
+}
+
+
+
+
+.container22{
+    position: relative;
+    background-attachment: fixed;
+}
+
+/* img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover; /* 
+    
+   
+} */
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black; 
+    text-align: center;
+    font-size: 48px; 
+    
+}
+.parent-container {
+  height: 100vh; 
+  width: 100vw;
+} 
+.box {
+  height: 100%;
+  width: 100%;
+  background-image: url(sl.jpg);
+  background-attachment: fixed;
+  object-fit: cover;
+  background-size: cover;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  color: rgb(0, 0, 0); 
+  text-align: center; 
+  font-size: 50px;
+}
+
+.two-columns {
+  column-count: 2;
+  column-gap: 40px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.column {
+  break-inside: avoid-column; 
+}
+
+
+.two-columns p {
+  margin-bottom: 200px;
+  text-align: justify;
+}
+@media only screen and (max-width: 768px) {
+  
+  .alignfromleft {
+    padding-left: 20px; 
+  }
+
+  .alignfromleft2 {
+    padding-left: 20px; 
+    margin-top: -200px;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.text2{
+font-size: 32px;
+
+
+}
+#logo {
+  transition: filter 0.5s ease;
+}
+
+#logo:hover {
+  filter: brightness(1.5); 
+}
+.youtubelog{
+  height: 50px;
+   width: 50px;
+    align-items: center;
+     margin-top:-0px ;
+     margin-left: 0px;
+}
+
+.container {
+  display: flex; 
+}
+
+.rectangle {
+  width: 500px; 
+  height: 1000px; 
+  background-color: transparent; 
+  border: 1px solid black;
+  text-align: center; 
+  line-height: 100px; 
+  color: #fff; 
+  margin-right: 100px; 
+}
+
+.rectangle img {
+  max-width: 100%; 
+  max-height: 100%; 
+  width: 10%;
+  height: 5%s;
+}
+
+.text-container {
+  padding: 20px; 
+  text-align: left; 
+}
+
+.rectangle:hover .img-overlay {
+  opacity: 1; 
+}
+
+
+.input-container {
+  display: flex;
+}
+
+
+.input-container input {
+  margin-right: 10px; 
+}
+.above-text {
+  text-align: center; 
+  margin-bottom: 10px; 
+}
+
+        
+
+        input {
+            width: 200px;
+            padding: 8px;
+            margin-bottom: 16px;
+        }
+
+        #emailInput {
+            margin-left: 20px;
+        }
+        
+      
+      .input-container3{
+        display: inline-block;
+        margin-right: 20px;
+        vertical-align: top;
+    }
+
+   
+
+    .horizontal2-stack {
+      display: flex;
+      flex-direction: row; 
+      background: transparent;
+     
+    }
+    .horizontal2-stack * {
+      margin-left: 20px; 
+    }
+ 
+    .container {
+      display: flex;
+      flex-direction: row;
+      align-items: left;
+    }
+
+    .input-group {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .label {
+      margin-bottom: 5px;
+    }
+
+    .print-button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .print-button:hover {
+      background-color: #45a049;
+    }
